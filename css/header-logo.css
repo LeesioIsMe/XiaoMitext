@@ -1,0 +1,92 @@
+.content{
+    padding:0;
+}
+.img,.sort,.search{
+    float:left;
+}
+.img{
+    margin:20px 0 0 0;
+}
+.sort{
+    margin:50px 0 10px 20px;
+    width:570px;
+}
+.sort a{
+    margin:0 10px 0 0;
+    color:black;
+    text-decoration: none;
+}
+.sort a:hover{
+    color:rgb(223,103,0);
+}
+.search{
+    border:1px solid rgb(224,224,224);
+    margin:30px 0 5px 28px;
+    background-image: url(../images/tv-9.png);
+    background-repeat: no-repeat;
+    background-size:50px 50px;
+    background-position:100% 0;
+    width:302px;
+    height:52px;
+}
+.search input{
+    border:none;
+    width:250px;
+    height:50px;
+    outline:none;
+    font-size:16px;
+    padding:10px;
+    border-right:1px solid rgb(224,224,224);
+    font-family: Arial;
+}
+.clearfix::after{
+    clear:both;
+    content:"";
+    display:block;
+    visibility: hidden;
+    height:0;
+}
+.photoPlay{
+    width:1150px;
+    position: relative;
+}
+.photoPlay ul{
+    list-style:none;
+    height:431px;
+    width:235px;
+    background-color: rgba(0,0,0,0.6);
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.photoPlay ul li{
+    position: relative;
+    width:100%;
+    padding:3px 0 0 30px;
+}
+.photoPlay ul li:hover{
+    background-color:rgb(255,103,0);
+}
+.photoPlay a{
+    text-decoration: none;
+    color:rgb(187,194,198);
+    display:inline-block;
+    line-height:40px;
+    width:100%;
+}
+.photoPlay b{
+    text-decoration: none;
+    color:white;
+    display:inline-block;
+    height:40px;
+    line-height:40px;
+    position:absolute;
+    top:0px;
+    right:30px;
+    font-weight:bolder;
+    color:rgb(187,194,198);
+}
+.photoPlay img{
+    width:100%;
+}

@@ -1,0 +1,89 @@
+.shanGou{
+    width:1150px;
+    /* height:380px; */
+}
+.shanGou h2{
+    font-weight:500;
+    font-size:20px;
+    margin:10px 0 10px 0;
+}
+.shanGou a{
+    color:black;
+}
+.shanGou div{
+    /* height:333px; */
+    width:220px;
+    float:left;
+    text-align:center;
+    
+}
+.shanGou1,.shanGou2,.shanGou3,.shanGou4{
+    margin-left:12px;
+}
+.timer *{
+    margin-top:20px;
+
+}
+
+.timer .time{
+    font-size:18px;
+    font-weight: bold;
+    color:rgb(239,58,59);
+    margin-top:50px;
+}
+.timer .p2{
+    color:rgb(111,109,109);
+}
+.timer span{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    background: rgb(96,87,81);
+    line-height:40px;
+    font-weight:bold;
+    color:white;
+}
+.shanGou1 img,.shanGou2 img ,.shanGou3 img ,.shanGou4 img{
+    width:150px;
+    height:150px;
+    margin-top:20px;
+}
+.shanGou1 .p1,.shanGou2 .p1 ,.shanGou3 .p1 ,.shanGou4 .p1{
+    font-size:14px;
+}
+.shanGou1 .p2,.shanGou2 .p2 ,.shanGou3 .p2 ,.shanGou4 .p2{
+    color:rgb(127,127,127);
+    font-size: 14px;
+    margin-top:10px;
+}
+.shanGou1 .p3,.shanGou2 .p3 ,.shanGou3 .p3 ,.shanGou4 .p3{
+    color:rgb(223,103,0);
+    margin-top:10px;
+    font-size:14px;
+}
+.shanGou1 span,.shanGou2 span ,.shanGou3 span ,.shanGou4 span{
+    display:inline-block;
+    width:60px;
+    color:white;
+    background:red;
+    font-size:14px;
+}
+.timer{
+    border-top:1px solid red;
+}
+.shanGou1{
+    border-top:1px solid rgb(255,172,19);
+}
+.shanGou2{
+    border-top:1px solid rgb(131,196,78);
+}
+.shanGou3{
+    border-top:1px solid rgb(33,150,243);
+}
+.shanGou4{
+    border-top:1px solid rgb(229,57,53);
+}
+.middleAdver img{
+    width:1148px;
+    margin:30px 0 30px 0;
+}

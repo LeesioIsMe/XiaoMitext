@@ -1,0 +1,200 @@
+.footer {
+    width:1150px;
+    margin-bottom:20px;
+    padding-bottom:10px;
+}
+.footer .shouhou{
+    width:1150px;
+    text-align:center;
+    height:40px;
+    line-height:40px;
+    border-bottom:1px solid rgb(188,188,188);
+
+}
+.shouhou a{
+    width:220px;
+    display:inline-block;
+    text-decoration:none;
+    color:rgb(44, 44, 44);
+    font-size:18px;  
+}
+.shouhou a:hover{
+    color:rgb(223,103,0);
+}
+.shouhou .bg1{
+    background-image:url(../images/weixiu.png);
+    background-repeat:no-repeat;
+    background-size:40px 40px;
+    background-position:15px -1px;
+}
+.shouhou .bg2{
+    background-image:url(../images/7tian.png);
+    background-repeat:no-repeat;
+    background-size:40px 40px;
+    background-position:15px -1px;
+}
+.shouhou .bg3{
+    background-image:url(../images/15tian.png);
+    background-repeat:no-repeat;
+    background-size:40px 40px;
+    background-position:15px -1px;
+}
+.shouhou .bg4{
+    background-image:url(../images/150baoyou.png);
+    background-repeat:no-repeat;
+    background-size:40px 40px;
+    background-position:15px -1px;
+}
+.shouhou .bg5{
+    background-image:url(../images/wangdian.png);
+    background-repeat:no-repeat;
+    background-size:40px 40px;
+    background-position:15px -1px;
+    padding-left:15px;
+}
+.shouhou .bg1:hover{
+    background-image:url(../images/weixiu-1.png);
+    background-repeat:no-repeat;
+    background-size:40px 40px;
+    background-position:15px -1px;
+}
+.shouhou .bg2:hover{
+    background-image:url(../images/7tian-1.png);
+    background-repeat:no-repeat;
+    background-size:40px 40px;
+    background-position:15px -1px;
+}
+.shouhou .bg3:hover{
+    background-image:url(../images/15tian-1.png);
+    background-repeat:no-repeat;
+    background-size:40px 40px;
+    background-position:15px -1px;
+}
+.shouhou .bg4:hover{
+    background-image:url(../images/150baoyou-1.png);
+    background-repeat:no-repeat;
+    background-size:40px 40px;
+    background-position:15px -1px;
+}
+.shouhou .bg5:hover{
+    background-image:url(../images/wangdian-1.png);
+    background-repeat:no-repeat;
+    background-size:40px 40px;
+    background-position:15px -1px;
+    padding-left:15px;
+}
+.footer .left-footer{
+    margin-top:30px;
+    width:908px;
+    border-right:1px solid rgb(188,188,188);
+    float:left;
+    height:120px;
+}   
+.footer .left-footer dl{
+    display:inline-block;
+    font-size:12px;
+    margin-right:100px;
+}
+.footer .left-footer dl:last-of-type{
+    display:inline-block;
+    font-size:12px;
+    margin-right:0;
+}
+.footer .left-footer dl a{
+    color:rgb(88,88,88);
+    text-decoration:none;
+}
+.footer .left-footer dt{
+    color:rgb(22,22,22);
+    font-size:14px;
+    margin-bottom:30px;
+}
+.footer .left-footer dd{
+    margin-top:10px;
+}
+
+.footer .right-footer {
+    margin-top:30px;
+    width:240px;
+    text-align:center;
+
+    float:right;
+    height:120px;
+    line-height:30px;
+
+}
+.right-footer .number{
+    color:rgb(223,103,0);
+    font-size:20px;
+    font-weight:700;
+}
+.right-footer .worktime{
+    font-size:12px;
+    color:rgb(88,88,88);
+}
+.right-footer .w2{
+    margin-top:-10px;
+}
+.right-footer .callthem {
+    border:1px solid rgb(223,103,0);
+    display:inline-block;
+    text-decoration: none;
+    font-size:12px;
+    width:120px;
+    color:rgb(223,103,0);
+    padding-left:20px;
+    background-image:url(../images/callthem-1.png);
+    background-repeat:no-repeat;
+    background-position:25px 8px;
+}
+.right-footer .callthem:hover{
+    background:rgb(242,88,7);
+    color:white;
+    background-image:url(../images/callthem.png);
+    background-repeat:no-repeat;
+    background-position:25px 8px;
+}
+
+.bottom-footer{
+    width: 1150px;
+    margin-top:50px;
+
+}
+.bottom-footer .left-bottom{
+    width:760px;
+    font-size:12px;
+    padding-left:70px;
+    background-image:url(../images/favicon.ico);
+    background-repeat:no-repeat;
+    background-size:65px 65px;
+    background-position:0 0; 
+    float:left;
+}   
+.bottom-footer .left-bottom a,.bottom-footer .left-bottom span{
+    text-decoration:none;
+    color:rgb(88,88,88);  
+}
+.bottom-footer .left-bottom a:hover{
+    color:rgb(223,103,0);  
+}
+.bottom-footer .right-bottom{
+    float:right;
+    width:430px;
+    margin-top:-60px;
+}
+.bottom-footer .right-bottom a{
+    display:inline-block;
+    width:80px;
+}
+.bottom-footer .right-bottom a img{
+    width:100%;
+}
+
+.bottom-bottom p{
+    font-family:"楷体";
+    font-size:20px;
+    font-weight:bold;
+    color:rgb(188,188,188);
+    text-align:center;
+    margin-top:50px;
+}

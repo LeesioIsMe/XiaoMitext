@@ -1,0 +1,86 @@
+.rec{
+    width:1150px;
+    margin-top:20px;
+}
+.rec h2{
+    font-size:20px;
+    font-weight:500;
+    margin-bottom:10px;
+}
+.rec h2 div{
+    float:right;
+    width:80px;    
+}
+.rec h2 div a{
+    float:left;
+    margin:0;
+    padding:0;
+    font-size:18px;
+    text-decoration:none;
+    text-align:center;
+    color:rgb(127,127,127);
+    display:inline-block;
+    height:26px;
+    width:40px;
+    border:1px solid rgb(188,188,188);
+    border-radius:3px;
+    background:rgb(245,245,245);
+}
+.rec h2 div a:nth-of-type(1){
+    border-right:none;
+    border-radius:3px 0 0 3px;
+    color:rgb(200,200,200);
+}
+.rec h2 div a:nth-of-type(2){
+    border-radius:0 3px 3px 0;
+}
+.rec h2 div a:hover{
+    color:rgb(223,103,0);
+}
+.rec h2 div a:nth-of-type(1):hover{
+    color:rgb(200,200,200);
+}
+.rec .recommendation div{
+    float:left;
+    margin:15px 0px 50px 11px;
+    text-align:center;
+    width:215px;
+    height:290px;
+}
+.rec .recommendation img{
+    width:150px;
+    height:150px;
+}
+.rec .recommendation .p1{
+    font-size:14px;
+    color:black;
+}
+.rec .recommendation .p2{
+    color:rgb(127,127,127);
+    font-size: 14px;
+    margin-top:5px;
+}
+.rec .recommendation .p3{
+    color:rgb(223,103,0);
+    margin-top:5px;
+    font-size:14px;
+}
+.rec .recommendation div:hover{
+
+    animation-name:up;
+    animation-duration:0.1s;
+    animation-timing-function:linear;
+    animation-fill-mode:both;
+}
+@keyframes up{
+    from{
+        margin-top:0;
+        box-shadow:rgb(180,180,180) 0px 0px 20px;
+    }
+    to{
+        margin-top:-1px;
+        box-shadow:rgb(180,180,180) 0px 10px 20px;
+    }
+}
+
+

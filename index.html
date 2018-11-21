@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小米商城</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/header-logo.css">
+    <link rel="stylesheet" href="css/adver.css">
+    <link rel="stylesheet" href="css/shangou.css">
+    <link rel="stylesheet" href="css/shouji.css">
+    <link rel="stylesheet" href="css/tv.css">
+    <link rel="stylesheet" href="css/recommend.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body class="container">
+    <div class="header clearfix">
+        <div class="title">
+            <span>
+                <a href="#">小米商城</a>
+                <a href="#">MIUI</a>
+                <a href="#">IoT</a>
+                <a href="#">云服务</a>
+                <a href="#">金融</a>
+                <a href="#">有品</a>
+                <a href="#">小爱开放平台</a>
+                <a href="#">政企服务</a>
+                <a href="#">下载app</a>
+                <a href="#">Select Region</a>
+            </span>
+            <span>
+                <a href="#">登录</a>
+                <a href="#">注册</a>
+                <a href="#">消息通知</a>
+                <a href="#" class="shopCar">
+                    <span>购物车（0）</span>
+                </a>
+            </span>
+        </div>
+    </div>
+    <div class="content">
+
+
+        <!-- 图标与物品分类 -->
+        <div class="logo-sort clearfix">
+            <div class="img">
+                <img src="./images/favicon.ico" alt="logo" style="width:60px;height:60px;">
+                <img src="./images/double11.gif" alt="double11">
+            </div>
+            <div class="sort">
+                <a href="#">小米手机</a>
+                <a href="#">红米</a>
+                <a href="#">电视</a>
+                <a href="#">笔记本</a>
+                <a href="#">空调</a>
+                <a href="#">新品</a>
+                <a href="#">路由器</a>
+                <a href="#">智能硬件</a>
+                <a href="#">服务</a>
+                <a href="#">社区</a>
+            </div>
+            <div class="search">
+                <input type="text" id="search">
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <!-- 产品导购与图片播放 -->
+        <div class="photoPlay">
+            <ul class="product">
+                <li>
+                    <a href="#">手机 电话卡</a>
+                    <b>></b>
+                </li>
+                <li>
+                    <a href="#">电视 盒子</a>
+                    <b>></b>
+                </li>
+                <li>
+                    <a href="#">笔记本 平板</a>
+                    <b>></b>
+                </li>
+                <li>
+                    <a href="#">家电 插线板</a>
+                    <b>></b>
+                </li>
+                <li>
+                    <a href="#">出行 穿戴</a>
+                    <b>></b>
+                </li>
+                <li>
+                    <a href="#">只能 路由器</a>
+                    <b>></b>
+                </li>
+                <li>
+                    <a href="#">电源 配件</a>
+                    <b>></b>
+                </li>
+                <li>
+                    <a href="#">健康 儿童</a>
+                    <b>></b>
+                </li>
+                <li>
+                    <a href="#">耳机 音箱</a>
+                    <b>></b>
+                </li>
+                <li>
+                    <a href="#">生活 箱包</a>
+                    <b>></b>
+                </li>
+            </ul>
+            <a href="#">
+                <img id="photoShow" src="images/1.jpg" alt="">
+            </a>
+        </div>
+
+        <!-- 快速通道 广告 -->
+        <div class="adver clearfix">
+            <div class="fastEnter clearfix">
+                <div>
+                    <a href="#">
+                        <img src="images/side-people.png" alt="">
+                        <p>选购手机
+                            <p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="images/side-people.png" alt="">
+                        <p>企业团购
+                            <p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="images/side-people.png" alt="">
+                        <p>F码通道</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="images/side-people.png" alt="">
+                        <p>米粉卡</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="images/side-people.png" alt="">
+                        <p>以旧换新
+                            <p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="images/side-people.png" alt="">
+                        <p>话费充值
+                            <p>
+                    </a>
+                </div>
+            </div>
+            <div class="adver1">
+                <a href="#">
+                    <img src="images/xm8qcb.jpg" alt="">
+                </a>
+            </div>
+            <div class="adver2">
+                <a href="#">
+                    <img src="images/hm6.jpg" alt="">
+                </a>
+            </div>
+            <div class="adver3">
+                <a href="#">
+                    <img src="images/xmsh3.jpg" alt="">
+                </a>
+            </div>
+        </div>
+
+        <!-- 小米闪购 -->
+        <div class="shanGou clearfix">
+            <h2>小米闪购</h2>
+            <div class="timer">
+                <p class="time" id="time">20:00 场</p>
+                <img src="images/flashpurchase.png" alt="">
+                <p class="p2">距离结束还有</p>
+                <p class="p3">
+                    <span id="hour">00</span>:
+                    <span id="minute">00</span>:
+                    <span id="second">00</span>
+                </p>
+            </div>
+            <a href="#">
+                <div class="shanGou1">
+                    <p class="discount">
+                        <span>立减270</span>
+                    </p>
+                    <img src="images/mi6x.jpg" alt="">
+                    <p class="p1">红米6 Pro 4GB+32GB</p>
+                    <p class="p2">高颜值大点亮/异形全面屏/后置1200万 AI双摄</p>
+                    <p class="p3">1099元
+                        <del style="color:rgb(173,173,190)">1199</del>
+                    </p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="shanGou2">
+                    <p class="discount">
+                        <span>立减230</span>
+                    </p>
+                    <img src="images/mi8-se.png" alt="">
+                    <p class="p1">红米Note5 3GB+32GB</p>
+                    <p class="p2">国民品质红米手机/拍照专家/大电量，长续航</p>
+                    <p class="p3">929元
+                        <del style="color:rgb(173,173,190)">1099</del>
+                    </p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="shanGou3">
+                    <p class="discount">
+                        <span>11.1秒杀</span>
+                    </p>
+                    <img src="images/smart-6.jpg" alt="">
+                    <p class="p1">红米6 Pro 4GB+32GB</p>
+                    <p class="p2">高颜值大点亮/异形全面屏/后置1200万 AI双摄</p>
+                    <p class="p3">1元
+                        <del style="color:rgb(173,173,190)">89</del>
+                    </p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="shanGou4">
+                    <p class="discount">
+                        <span>11.1秒杀</span>
+                    </p>
+                    <img src="images/smart-7.jpg" alt="">
+                    <p class="p1">红米Note5 3GB+32GB</p>
+                    <p class="p2">国民品质红米手机/拍照专家/大电量，长续航</p>
+                    <p class="p3">1元
+                        <del style="color:rgb(173,173,190)">79</del>
+                    </p>
+                </div>
+            </a>
+
+        </div>
+
+        <!-- 中间广告 -->
+        <div class="middleAdver">
+            <a href="#">
+                <img src="images/adv-1.jpg" alt="">
+            </a>
+        </div>
+        <!-- 手机 -->
+
+        <div class="shouji clearfix">
+            <h2>手机
+                <a href="#">查看全部</a>
+            </h2>
+            <a href="#">
+                <div class="sidePhone">
+                    <img src="images/phone-adv.jpg" alt="">
+                </div>
+            </a>
+            <div class="contentPhone clearfix">
+                <div class="shouji1 clearfix">
+                    <a href="#">
+                        <div>
+                            <p class="discount">
+                                <span>新品</span>
+                            </p>
+                            <img src="images/mi8.jpg" alt="">
+                            <p class="p1">小米8青春版 4GB+64GB</p>
+                            <p class="p2">潮流镜面渐变色，2400万自拍旗舰</p>
+                            <p class="p3">1399元</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div>
+                            <p class="discount">
+                                <span>新品</span>
+                            </p>
+                            <img src="images/mi8.jpg" alt="">
+                            <p class="p1">小米8青春版 4GB+64GB</p>
+                            <p class="p2">潮流镜面渐变色，2400万自拍旗舰</p>
+                            <p class="p3">1399元</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div>
+                            <p class="discount">
+                                <span>新品</span>
+                            </p>
+                            <img src="images/mi8-se.png" alt="">
+                            <p class="p1">小米8青春版 4GB+64GB</p>
+                            <p class="p2">潮流镜面渐变色，2400万自拍旗舰</p>
+                            <p class="p3">1399元</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div>
+                            <p class="discount">
+                                <span>新品</span>
+                            </p>
+                            <img src="images/mix2s.jpg" alt="">
+                            <p class="p1">小米8青春版 4GB+64GB</p>
+                            <p class="p2">潮流镜面渐变色，2400万自拍旗舰</p>
+                            <p class="p3">1399元</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="shouji2 clearfix">
+                    <a href="#">
+                        <div>
+                            <p class="discount">
+                                <span>新品</span>
+                            </p>
+                            <img src="images/mix2s80-80white.png" alt="">
+                            <p class="p1">小米8青春版 4GB+64GB</p>
+                            <p class="p2">潮流镜面渐变色，2400万自拍旗舰</p>
+                            <p class="p3">1399元</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div>
+                            <p class="discount">
+                                <span>新品</span>
+                            </p>
+                            <img src="images/mi6pro.jpg" alt="">
+                            <p class="p1">小米8青春版 4GB+64GB</p>
+                            <p class="p2">潮流镜面渐变色，2400万自拍旗舰</p>
+                            <p class="p3">1399元</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div>
+                            <p class="discount">
+                                <span>新品</span>
+                            </p>
+                            <img src="images/mi6x.jpg" alt="">
+                            <p class="p1">小米8青春版 4GB+64GB</p>
+                            <p class="p2">潮流镜面渐变色，2400万自拍旗舰</p>
+                            <p class="p3">1399元</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div>
+                            <p class="discount">
+                                <span>新品</span>
+                            </p>
+                            <img src="images/mimax.jpg" alt="">
+                            <p class="p1">小米8青春版 4GB+64GB</p>
+                            <p class="p2">潮流镜面渐变色，2400万自拍旗舰</p>
+                            <p class="p3">1399元</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 中间广告 -->
+        <div class="middleAdver">
+            <a href="#">
+                <img src="images/adv-2.jpg" alt="">
+            </a>
+        </div>
+
+        <!-- 家电 -->
+        <div class="tv clearfix">
+            <h2 class="clearfix">家电
+                <ul>
+                    <li>
+                        <a href="#">热门</a>
+                    </li>
+                    <li>
+                        <a href="#">电视影音</a>
+                    </li>
+                    <li>
+                        <a href="#">电脑</a>
+                    </li>
+                    <li>
+                        <a href="#">家具</a>
+                    </li>
+                </ul>
+            </h2>
+
+            <div class="contentTV clearfix">
+                <a href="#">
+                    <div class="head-div">
+                        <img src="images/tv-adv-1.jpg" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <p class="discount">
+                            <span>新品</span>
+                        </p>
+                        <img src="images/tv-1.png" alt="">
+                        <p class="p1">小米电视4A 43英寸青春版</p>
+                        <p class="p2">全高清/人工智能语音</p>
+                        <p class="p3">1399元&nbsp;
+                            <del>1699</del>
+                        </p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <p class="discount">
+                            <span>新品</span>
+                        </p>
+                        <img src="images/tv-2.jpg" alt="">
+                        <p class="p1">小米8青春版 4GB+64GB</p>
+                        <p class="p2">潮流镜面渐变色，2400万自拍旗舰</p>
+                        <p class="p3">1899元&nbsp;
+                            <del>2199</del>
+                        </p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <p class="discount">
+                            <span>新品</span>
+                        </p>
+                        <img src="images/tv-3.jpg" alt="">
+                        <p class="p1">小米8青春版 4GB+64GB</p>
+                        <p class="p2">潮流镜面渐变色，2400万自拍旗舰</p>
+                        <p class="p3">1399元</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <p class="discount">
+                            <span>新品</span>
+                        </p>
+                        <img src="images/tv-4.png" alt="">
+                        <p class="p1">小米8青春版 4GB+64GB</p>
+                        <p class="p2">潮流镜面渐变色，2400万自拍旗舰</p>
+                        <p class="p3">1399元</p>
+                    </div>
+                </a>
+            </div>
+            <div class="contentTV clearfix">
+                <a href="#">
+                    <div class="head-div">
+                        <img src="images/tv-adv-6.jpg" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <p class="discount">
+                            <span>新品</span>
+                        </p>
+                        <img src="images/smart-1.png" alt="">
+                        <p class="p1">小米8青春版 4GB+64GB</p>
+                        <p class="p2">潮流镜面渐变色，2400万自拍旗舰</p>
+                        <p class="p3">1399元</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <p class="discount">
+                            <span>新品</span>
+                        </p>
+                        <img src="images/smart-2.jpg" alt="">
+                        <p class="p1">小米8青春版 4GB+64GB</p>
+                        <p class="p2">潮流镜面渐变色，2400万自拍旗舰</p>
+                        <p class="p3">1399元</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <p class="discount">
+                            <span>新品</span>
+                        </p>
+                        <img src="images/smart-3.jpg" alt="">
+                        <p class="p1">小米8青春版 4GB+64GB</p>
+                        <p class="p2">潮流镜面渐变色，2400万自拍旗舰</p>
+                        <p class="p3">1399元</p>
+                    </div>
+                </a>
+                <div class="tv-last">
+                    <a href="#">
+                        <div class="item1">
+                            <p class="p1">小米手环</p>
+                            <p class="p3">1399</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="more">
+                            <p class="p1">浏览更多</p>
+                            <p class="p2">热门</p>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- 为你推荐 -->
+        <div class="rec">
+            <h2>
+                为你推荐
+                <div class="clearfix">
+                    <a href="javascript:void(0)">
+                        <</a>
+                            <a href="#">></a>
+                </div>
+            </h2>
+            <div class="recommendation clearfix">
+                <a href="#">
+                    <div>
+
+                        <img src="images/smart-2.jpg" alt="">
+                        <p class="p1">小米手环3 NFC版</p>
+                        <p class="p3">199</p>
+                        <p class="p2">6124人好评</p>
+
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+
+                        <img src="images/mi6x.jpg" alt="">
+                        <p class="p1">小米6x</p>
+                        <p class="p3">1999</p>
+                        <p class="p2">11324人好评</p>
+
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+
+                        <img src="images/rec-1.jpg" alt="">
+                        <p class="p1">小米8SE</p>
+                        <p class="p3">2699</p>
+                        <p class="p2">23456人好评</p>
+
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+
+                        <img src="images/tv-2.jpg" alt="">
+                        <p class="p1">TV</p>
+                        <p class="p3">3399</p>
+                        <p class="p2">3689人好评</p>
+
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+
+                        <img src="images/smart-6.jpg" alt="">
+                        <p class="p1">小米相机</p>
+                        <p class="p3">199</p>
+                        <p class="p2">499人好评</p>
+
+
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer clearfix">
+        <!-- 售后服务 -->
+        <div class="shouhou clearfix">
+            <a href="#" class="bg1">预约维修服务</a>
+            <a href="#" class="bg2">7天无理由退货</a>
+            <a href="#" class="bg3">15天免费换货</a>
+            <a href="#" class="bg4">满150元包邮</a>
+            <a href="#" class="bg5">520余家售后网点</a>
+        </div>
+        <!-- 帮助中心 -->
+        <div class="left-footer">
+            <dl>
+                <dt>帮助中心</dt>
+                <dd><a href="#">账户管理</a></dd>
+                <dd><a href="#">购物指南</a></dd>
+                <dd><a href="#">订单操作</a></dd>
+            </dl>
+            <dl>
+                <dt>服务支持</dt>
+                <dd><a href="#">售后政策</a></dd>
+                <dd><a href="#">自助服务</a></dd>
+                <dd><a href="#">相关下载</a></dd>
+            </dl>
+            <dl>
+                <dt>线下门店</dt>
+                <dd><a href="#">小米之家</a></dd>
+                <dd><a href="#">服务网点</a></dd>
+                <dd><a href="#">授权体验店</a></dd>
+            </dl>
+            <dl>
+                <dt>关于小米</dt>
+                <dd><a href="#">了解小米</a></dd>
+                <dd><a href="#">加入小米</a></dd>
+                <dd><a href="#">投资者关系</a></dd>
+            </dl>
+            <dl>
+                <dt>关注我们</dt>
+                <dd><a href="#">新浪微博</a></dd>
+                <dd><a href="#">官方微信</a></dd>
+                <dd><a href="#">联系我们</a></dd>
+            </dl>
+            <dl>
+                <dt>特色服务</dt>
+                <dd><a href="#">F码通道</a></dd>
+                <dd><a href="#">礼物码</a></dd>
+                <dd><a href="#">防伪查询</a></dd>
+            </dl>
+        </div>
+        <div class="right-footer">
+            <p class="number">400-100-5678</p>
+            <p class="worktime w1">周一至周日 8:00-18:00</p>
+            <p class="worktime w2">（仅收市话费）</p>
+            <a href="#" class="callthem">联系客服</a>
+
+        </div>
+        <!-- 左右浮动没清除掉，添加冗余代码清除浮动 -->
+        <div class="clearfix"></div>
+
+        <!-- 脚注内容 -->
+        <div class="bottom-footer clearfix">
+            <div class="left-bottom">
+                <div class="bt1">
+                    <a href="#">小米商城</a>
+                    <a href="#">MIUI</a>
+                    <a href="#">米加</a>
+                    <a href="#">米聊</a>
+                    <a href="#">多看</a>
+                    <a href="#">游戏</a>
+                    <a href="#">路由器</a>
+                    <a href="#">米粉卡</a>
+                    <a href="#">政企服务</a>
+                    <a href="#">小米天猫店</a>
+                    <a href="#">隐私政策</a>
+                    <a href="#">问题反馈</a>
+                    <a href="#">廉政举报</a>
+                    <a href="#">Select Region</a>
+                </div>
+                <div class="bt2">
+                    <a href="#">@ mi.com</a>
+                    <span>京ICP证110507号</span>
+                    <a href="#">京ICP备10046444号</a>
+                    <a href="#">京公网安备11010802020134号</a>
+                    <a href="#">京网文[2017]1530-131号</a>
+                </div>
+                <div class="bt3">
+                    <a href="#">（京）网域平台备字（2018）第00005号</a>
+                    <a href="#">互联网药品信息服务资格证（京）-非经营性-2014-0090</a>
+                    <a href="#">营业执照</a>
+                    <a href="#">医疗器械公告</a>
+                </div>
+                <div class="bt4">
+                    <span>违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</span>
+                </div>
+
+            </div>
+            <div class="right-bottom">
+                <a href="#"><img src="images/bottom-1.png" alt=""></a>
+                <a href="#"><img src="images/bottom-2.png" alt=""></a>
+                <a href="#"><img src="images/bottom-3.png" alt=""></a>
+                <a href="#"><img src="images/bottom-4.png" alt=""></a>
+                <a href="#"><img src="images/bottom-5.png" alt=""></a>
+            </div>
+        </div>
+
+
+        <!-- 口号 -->
+
+        <div class="bottom-bottom">
+            <p>探索黑科技，小米为发烧而生！！！</p>
+        </div>
+    </div>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
