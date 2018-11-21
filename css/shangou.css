@@ -1,6 +1,7 @@
 .shanGou{
     width:1150px;
     /* height:380px; */
+    margin:0 auto;
 }
 .shanGou h2{
     font-weight:500;
@@ -15,6 +16,7 @@
     width:220px;
     float:left;
     text-align:center;
+
     
 }
 .shanGou1,.shanGou2,.shanGou3,.shanGou4{
@@ -83,7 +85,10 @@
 .shanGou4{
     border-top:1px solid rgb(229,57,53);
 }
+.middleAdver{
+    width:1150px;
+    margin:30px auto;
+}
 .middleAdver img{
-    width:1148px;
-    margin:30px 0 30px 0;
+    width:100%;
 }

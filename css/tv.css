@@ -1,5 +1,6 @@
 .tv{
     width:1150px;
+    margin:20px auto;
 }
 .tv h2{
     font-size:20px;
@@ -25,15 +26,15 @@
     border-bottom:2px solid rgb(223,103,0);
 }
 .contentTV div{
-    width:213px;
+    width:215px;
     float:left;
-
     margin:8px;
     height:300px;
     text-align:center;
     font-size:14px;
     padding:2px;
-    background:#f5f5f5;
+    background:#fff;
+    position: relative;
 }
 .contentTV div img{
     width:180px;
@@ -52,7 +53,7 @@
 }
 .contentTV .p2{
     color:rgb(127,127,127);
-    font-size: 14px;
+    font-size: 12px;
     margin-top:10px;
 }
 .contentTV .p3{
@@ -67,11 +68,15 @@
     background:red;
 }
 .contentTV .tv-last{
-    width:210px;
+    margin-right:0;
+    width:215px;
     height:300px;
+    padding:0;
+    background:#f5f5f5;
 }
 .contentTV .tv-last .item1{
-
+    margin:0;
+    /* border:1px solid red; */
     height:135px;
     margin-bottom:10px;
     padding:20px 0 0 20px;
@@ -82,7 +87,8 @@
     background-position:120px 15px;
 }
 .contentTV .tv-last .more{
-
+    margin:20px 0 0 0;
+    /* border:1px solid red; */
     height:135px;
     padding:20px 0 0 20px;
     text-align: left;
@@ -93,18 +99,39 @@
 }
 
 .contentTV>a>div:hover,.item1:hover,.more:hover{
-    animation-name:up;
-    animation-duration:0.1s;
-    animation-timing-function:linear;
-    animation-fill-mode:both;
+    transform: translateY(-1px);
+    transition: transform 1s easy-out;
 }
-@keyframes up{
-    from{
-        margin-top:0;
-        box-shadow:rgb(180,180,180) 0px 0px 20px;
-    }
-    to{
-        margin-top:-1px;
-        box-shadow:rgb(180,180,180) 0px 10px 20px;
-    }
+
+.jiadian-hide:nth-of-type(1){
+    /* border:1px solid red; */
+}
+.jiadian-hide:nth-of-type(2){
+    /* border:1px solid blue; */
+}
+.jiadian-hide:nth-of-type(3){
+    /* border:1px solid yellow; */
+}
+.jiadian-hide:nth-of-type(4){
+    /* border:1px solid green; */
+}
+.contentTV .comment{
+    background:rgb(255,103,0);
+    position: absolute;
+    bottom:0;
+    height:76px;
+    font-size:12px;
+    color:#fff;
+    text-align:left;
+    padding:5px 25px;
+    margin:0;
+    display:none;
+}
+.contentTV .comment p:nth-child(2){
+    margin-top:10px;
+    color:#fff;
+    opacity: 0.6;
+}
+.contentTV>a>div:hover .comment{
+    display:block;
 }

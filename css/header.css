@@ -4,11 +4,11 @@
     box-sizing:border-box;
 }
 .container{
-    width:1150px;
-    margin:0 auto;
+    background:#f5f5f5;
     /* border:1px solid red; */
 }
 .header{
+    /* margin:0 auto; */
     background:rgb(51,51,51);
     height:40px;
     position:relative;
@@ -16,6 +16,7 @@
 }
 .header .title{
     width:1150px;
+    margin:0 auto;
 }
 .header a{
     color:#b0b0b0;
@@ -59,4 +60,62 @@
     background-position:20% 50%;
     background-color:rgb(66,66,66);
     color:rgb(236, 99, 7);
+}
+
+
+.sitebar{
+    position:fixed;
+    right:0;
+    bottom:100px;
+}
+.sitebar ul {
+    list-style: none;
+}
+.sitebar ul li{
+    width:80px;
+    height:90px;
+    border:1px solid #eee;
+    text-align:center;
+    padding:20px 0;
+    position: relative;
+}
+.sitebar ul li a>img{
+    display:block;
+    width:30px;
+    height:30px;
+    margin:0 auto 5px;
+    display:none;
+}
+.sitebar ul li [class^="pic"]{
+    display:block;
+}
+.sitebar ul li a{
+    text-decoration: none;
+    color:#757575;
+    font-size:14px;
+}
+.sitebar ul li:hover a{
+    color:rgb(236, 99, 7);
+}
+.sitebar ul li:hover .pic{
+    display:none;
+}
+.sitebar ul li:hover [class^="pic"]{
+    display:none;
+}
+.sitebar ul li:hover [class^="hover-pic"],.sitebar ul li:hover .erweima{
+    display:block;
+}
+.sitebar .erweima{
+    height:187px;
+    border:1px solid #eee;
+    position: absolute;
+    right:80px;
+    top:0;
+    padding:20px;
+    display:none;
+}
+.sitebar .erweima img{
+    widows: 100px;
+    height:100px;
 }

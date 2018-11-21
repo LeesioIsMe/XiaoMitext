@@ -1,6 +1,7 @@
 .rec{
     width:1150px;
     margin-top:20px;
+    margin:0 auto;
 }
 .rec h2{
     font-size:20px;
@@ -46,6 +47,7 @@
     text-align:center;
     width:215px;
     height:290px;
+    background:#fff;
 }
 .rec .recommendation img{
     width:150px;
@@ -66,21 +68,8 @@
     font-size:14px;
 }
 .rec .recommendation div:hover{
-
-    animation-name:up;
-    animation-duration:0.1s;
-    animation-timing-function:linear;
-    animation-fill-mode:both;
+    transform: translateY(-1px);
+    box-shadow: #ccc 0 0 5px;
+    transition: transform 1s easy-out;
 }
-@keyframes up{
-    from{
-        margin-top:0;
-        box-shadow:rgb(180,180,180) 0px 0px 20px;
-    }
-    to{
-        margin-top:-1px;
-        box-shadow:rgb(180,180,180) 0px 10px 20px;
-    }
-}
-
 

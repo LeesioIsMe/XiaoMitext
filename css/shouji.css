@@ -1,5 +1,6 @@
 .shouji{
     width:1145px;
+    margin:0 auto;
 }
 .shouji h2{
     font-weight:500;  
@@ -19,8 +20,7 @@
 }
 .shouji h2 a:hover{
     color:rgb(223,103,0);
-    background-size:35px 35px;
-    background-position:70px -5px;
+
 }
 .sidePhone,.contentPhone{
     float:left;
@@ -28,25 +28,37 @@
 .sidePhone{
     width:235px;
 }
-.contentPhone{
-    width:906px;
-}
 .sidePhone img{
     width:100%;
 }
 .contentPhone{
     width:910px;
 }
+.contentPhone div{
+
+}
+.shouji1,.shouji2{
+    height:300px;
+    /* border:1px solid red; */
+}
+.shouji2{
+    margin-top:15px;
+}
+.shouji2 div{
+    /* border:1px solid red; */
+}
+
 .shouji1 div,.shouji2 div{
     float:left;
-    margin:0 0px 50px 11px;
+    margin:0 0px 0px 11px;
     text-align:center;
-    width:215px;
-    height:290px;
+    width:210px;
+    height:300px;
+    background:#fff;
 }
 .contentPhone img{
-    width:180px;
-    height:180px;
+    width:160px;
+    height:160px;
 }
 .contentPhone .p1{
     font-size:14px;
@@ -70,19 +82,6 @@
 }
 
 .sidePhone:hover,.shouji1 div:hover,.shouji2 div:hover{
-    animation-name:up;
-    animation-duration:0.1s;
-    animation-timing-function:linear;
-    animation-fill-mode:both;
-}
-
-@keyframes up{
-    from{
-        margin-top:0;
-        box-shadow:rgb(180,180,180) 0px 0px 20px;
-    }
-    to{
-        margin-top:-1px;
-        box-shadow:rgb(180,180,180) 0px 10px 20px;
-    }
+    transform: translateY(-1px);
+    transition: transform 1s easy-out;
 }
