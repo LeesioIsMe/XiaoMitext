@@ -1,0 +1,92 @@
+.video{
+    width:1150px;
+    margin:20px auto 40px;
+}
+.video h2{
+    font-size:22px;
+    font-weight:500;
+    height:58px;
+}
+.video h2 div{
+    float:right;   
+    /* border:1px solid red; */
+}
+.video h2 div:hover a,.video h2 div:hover a span{
+    color:rgb(253,103,0);
+}
+.video h2 div:hover a span{
+    background:rgb(253,103,0);
+    color:#fff;
+}
+.video h2 div a{
+    line-height:58px;
+    text-decoration: none;
+    color:rgb(66,66,66);
+    font-size:16px;
+}
+.video h2 div a span{
+    text-align:center;
+    display:inline-block;
+    width:23px;
+    height:23px;
+    margin-left:5px;
+    border-radius:50%;
+    line-height:20px;
+    background:#b0b0b0;
+    color:white;
+}
+
+.video>div{
+    width:280px;
+    height:285px;
+    text-align:center;
+    font-size:12px;
+    line-height:29px;
+    background:#fff;
+    float:left;
+    margin-left:7px;
+    position: relative;
+}
+.video>div:first-child{
+    margin:0;
+}
+.video>div a{
+    text-decoration: none;
+    color:#333;
+}
+.video>div a:hover{
+    color:rgb(253,103,0);
+}
+.video>div img{
+    width:100%;
+    margin-bottom:20px;
+}
+.video>div p{
+    color:#b0b0b0;
+}
+.video .play{
+    position: absolute;
+    top:140px;
+    left:20px;
+    width:30px;
+    height:20px;
+    display:inline-block;
+    border:2px solid white;
+    border-radius:10px;
+}
+.video .play:before{
+    content:"";
+    display:block;
+    border-left:8px solid white;
+    border-top:8px solid transparent;
+    border-right:8px solid transparent;
+    border-bottom:8px solid transparent;
+    border-radius:5px;
+    position: absolute;
+    left:10px;
+    top:0px;
+}
+.video>div a:hover .play{
+    background:rgb(253,103,0);
+    border:2px solid rgb(253,103,0);
+}
